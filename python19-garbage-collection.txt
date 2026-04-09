@@ -1,0 +1,47 @@
+#In python garbage collection happens of two types
+
+1.Reference Counting
+2.Cyclic Garbage Collector
+
+a = []
+
+    a points to the list
+
+    Reference count = 1
+
+b = a
+
+    Now both a and b point to same object
+
+    Reference count = 2
+
+
+del a
+
+    Only b points
+
+    Reference count = 1
+
+
+🔹 Generational Garbage Collection
+
+Python divides objects into 3 generations:
+
+Generation	Meaning
+Gen 0	New objects
+Gen 1	Survived once
+Gen 2	Long-lived objects
+
+
+
+Circular reference count
+a = A()
+b = B()
+
+a.b = b   # A → B
+b.a = a   # B → A
+
+
+A ─► B
+▲      │
+└───┘
