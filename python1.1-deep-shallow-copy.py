@@ -14,4 +14,4 @@ b.append(10)
 print(id(a),id(b))
 
 
-#See in copy it wont copy the nested references but in deepcopy it does.
+#See in copy[shared content] it wont copy the nested references but in deepcopy it does.
