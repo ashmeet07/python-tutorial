@@ -55,3 +55,19 @@ print(a is b)
 
 #ternary operation
 a=a if a>0 else b
+
+
+
+import numpy as np
+
+a = np.array([[1, 2]])
+b = np.array([[3], [4]])
+
+print(a @ b) #This basically multiply the matrixs
+
+
+# The walrus operator
+if (n := len("Python")) > 5:
+    print(n)
+
+
