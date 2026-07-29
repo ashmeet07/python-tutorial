@@ -12,3 +12,6 @@ a=[1,2,3,4]
 b=copy.deepcopy(a)
 b.append(10)
 print(id(a),id(b))
+
+
+#See in copy it wont copy the nested references but in deepcopy it does.
