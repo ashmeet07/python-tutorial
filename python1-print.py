@@ -1,7 +1,8 @@
 #Hey this is tutorial for python
 print("Hello Python!",sep="",end="",flush=True,file=None)
 
+#PIP - Performance improvement plan
 
-#PEP 8 
+#PEP 8 - Python Enhancement Proposal
 
-#It is python enhancement proposal used for readable python code
+#The PEP 8 is used for readable python code
